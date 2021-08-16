@@ -6,5 +6,30 @@
 <h1>Camoon tiikeri</h1>
 <p style="color:red">tiikeri</p>
 <p style="color:blue"></p>
+
+<div class="rainbowText">Tiikeri</div>
+body {
+  background-color: #333;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+}
+.rainbowText {
+  font-family:arial black;
+  font-size:70px;
+  background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: move 35s linear infinite;
+  @keyframes move {
+	to {
+		background-position: 4500vh;
+	}
+}
+
+
+
 </body>
 </html>
