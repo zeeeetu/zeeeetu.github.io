@@ -45,11 +45,12 @@ ul {
 }
 
 li a {
-  display: block;
+  display: block; 
   color: #000;
   text-align:center;
   padding: 10px 16px;
   text-decoration: none;
+  }
 }
 
 li a:hover {
