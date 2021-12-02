@@ -1,4 +1,4 @@
-body {background-color: white;}
+body {background-color: rgb(39, 39, 39);}
 
 .wrapper {
   max-width: 728px;
@@ -36,22 +36,29 @@ body {background-color: white;}
   font-size: 30px;
 }
 
-ul {
+#pong {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 100px;
-  background-color: #f1f1f1;
+  width: 130px;
+  border: 1px solid #ffffff;
+}
+
+#smasher {
+  list-style-type: none;
+  margin-top: 5px;
+  padding: 0;
+  width: 130px;
+  border: 1px solid #ffffff;
 }
 
 li a {
   display: block; 
-  color: #000;
+  color: rgb(255, 255, 255);
   text-align:center;
   padding: 10px 16px;
   text-decoration: none;
   }
-}
 
 li a:hover {
   background-color: #555;
