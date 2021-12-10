@@ -47,7 +47,13 @@ body {background-color: rgb(39, 39, 39);}
 
 #smasher {
   list-style-type: none;
-  margin-top: 5px;
+  padding: 0;
+  width: 130px;
+  border: 1px solid #ffffff;
+}
+
+#gtatoukari {
+  list-style-type: none;
   padding: 0;
   width: 130px;
   border: 1px solid #ffffff;
