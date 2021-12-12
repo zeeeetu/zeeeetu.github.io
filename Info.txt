@@ -1,1 +1,2 @@
 https://sheeptester.github.io/htmlifier/ (SCRATCH TO HTML!)
+CTRL+F5 Hard Refresh
