@@ -13,7 +13,7 @@ body {background-color: rgb(39, 39, 39);}
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: rainbow 8s ease infinite;
-  text-shadow: 0px 0px 75px black;
+  text-shadow: 0px 0px 54px black;
 }
 
 @keyframes rainbow {
@@ -22,43 +22,13 @@ body {background-color: rgb(39, 39, 39);}
   100%{background-position: 0% 50%}
 }
 
-#tiikeri {
-  text-shadow: 2px 2px 3px blue;
-  color: black;
-  text-align: center;
-  font-size: 40px;
-}
-
-#zetu {
+.zetu {
   text-shadow: 2px 2px 3px rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   text-align: center;
   font-family: roboto;
   font-size: 30px;
 }
-
-#pong {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 130px;
-  border: 1px solid #ffffff;
-}
-
-#smasher {
-  list-style-type: none;
-  padding: 0;
-  width: 130px;
-  border: 1px solid #ffffff;
-}
-
-#gtatoukari {
-  list-style-type: none;
-  padding: 0;
-  width: 130px;
-  border: 1px solid #ffffff;
-}
-
 
 .dropbtn {
   background-color: transparent;
@@ -94,7 +64,16 @@ body {background-color: rgb(39, 39, 39);}
   text-shadow: 0px 0px 10px black;
 }
 
-.dropdown-content a:hover {
+.dropdown-content .KHT:hover {
+  background-color: #555;
+  background-size: 800% 800%;
+  background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 8s ease infinite;
+}
+
+.dropdown-content .GTR:hover {
   background-color: #555;
   background-size: 800% 800%;
   background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red, violet);
@@ -114,4 +93,16 @@ body {background-color: rgb(39, 39, 39);}
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: rainbow 8s ease infinite;
+  }
+
+  .dropdown-content .divB {
+    color: rgb(248, 0, 0);
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px black;
+  }
+
+  .dropdown-content .divB:hover {
+    color:rgb(248, 0, 0)
   }
