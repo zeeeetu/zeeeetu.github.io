@@ -96,7 +96,7 @@ body {background-color: rgb(39, 39, 39);}
   }
 
   .dropdown-content .divB {
-    color: rgb(248, 0, 0);
+    color: rgb(248, 232, 0);
     text-decoration: none;
     display: block;
     font-weight: bold;
@@ -104,5 +104,5 @@ body {background-color: rgb(39, 39, 39);}
   }
 
   .dropdown-content .divB:hover {
-    color:rgb(248, 0, 0)
+    color:rgb(248, 232, 0)
   }
