@@ -114,6 +114,9 @@ nav .fa{
     nav img{
         width: 220px;
     }
+    .proj-btn{
+        margin: 5px
+    }
 }
 
 /*----- Project List -----*/
